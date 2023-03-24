@@ -1,0 +1,17 @@
+package:
+  id: qtdbusextended
+  version: 0.0.3
+  kind: lib
+
+runtime:
+  id: org.deepin.Runtime
+  version: 20.5.0
+
+source:
+  kind: archive
+  url: https://github.com/deepin-community/qtdbusextended.git
+
+  commit: 36378f0960e644bf08a18ea45971b5362bd454bd
+  patch: []
+build:
+  kind: qmake
