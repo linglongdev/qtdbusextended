@@ -8,10 +8,9 @@ runtime:
   version: 23.0.0
 
 source:
-  kind: archive
+  kind: git
   url: https://github.com/deepin-community/qtdbusextended.git
 
   commit: 36378f0960e644bf08a18ea45971b5362bd454bd
-  patch: []
 build:
   kind: qmake
